@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+<title>GREENVEG</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+function openWin() {
+  window.open("index.html");
+}
+</script>
+</head>
+
+<body>
+
+<header>
+  <span style="font-size:13px;color:white;margin-left:10px;">SALE UP TO 70%OFF. USE CODE "SALE70".</span>
+	 <span style="color: #ff8533;padding:8px 12px;font-size:13;font-weight:bold"href="#">SHOP NOW</span>
+	 
+	 
+	 <span style="float:right;font-size:15px;font-weight:bold;margin-right:12px;margin-top:7px;">
+	
+
+	    <a style="text-decoration:none;color:#ff8533;padding:8px 12px;margin-left:25px;"href="createaccount.html">Create Account</a>
+	   <a style="text-decoration:none;color:#ff8533;padding:8px 12px;margin-left:25px;"href="login.html">Login</a>
+	    <a style="text-decoration:none;color:white;padding:8px 15px;background:#00aaff;border-radius:5px;margin-left:25px;" class="cart" href="cart.html">Cart</a>
+		</span>
+</header>
+<div class="expand">
+<iframe src="cart.html" style="height:420px;width:750px;border:none;"scrolling="off" name="iframe_b"title="Iframe"></iframe>
+  </div> 
+
+</div>
+<nav>
+  
+    <i class="fa fa-phone" style="font-size:20px"></i>
+      <span style="font-size:18px;color:black;">Order online or call us :(+8801835547300).</span>
+	  <span style="font-size:45px;color:#ff8533;font-weight:bold;margin-left:140px;font-family:URW Chancery L,cursive,sans-serif;">GREENVEG</span>
+	 <i class="fa fa-search" style="font-size:30px;padding:3.5px 5px;background:#ff8533;color:white;float:right;margin-left:5px;margin-top:25px"></i>
+	  <input style="float:right;"type="text" placeholder="Search for a Product">
+
+</nav>
+
+<div class="menu">
+   <ul>
+   <li> <a href="veg.html"> Vegetables</a></li>
+    <li> <a href="driedfruit.html"> Dried-Fruits</a></li>
+   <li> <a href="fruits.html"> Fruits</a></li>
+   <li> <a href="offers.html"> Offers</a></li>
+   <li> <a href="contactus.html"> Contact </a></li>
+   <li> <a href="aboutus.html"> About Us </a></li>
+   </ul>
+</div>
+
+<div class="main-pic">
+<img width="100%"src="image/mainpic.jpeg">
+</div>
+<div class="offers">
+  <h1 style="text-align:center"> TOP SELLING OFFERS </h1>
+  <hr style="color:#ff8533">
+
+  <div style="padding:20px 130px;">
+  <a style="text-decoration:none;color:#008080;border:1px solid black;padding:8px 200px;"href="newarrival.html"target="iframe_a">NEW ARRIVAL</a>
+   <a style="text-decoration:none;margin-left:-5px;color:#008080;border:1px solid black;padding:8px 200px;"href="todayoffer.html"target="iframe_a">TODAY OFFERS</a>
+  </div>
+   <div class="offersection">
+     <iframe src="newarrival.html" name="iframe_a" height="2000px" width="100%" style="border:none;" scrolling="off" title="Iframe Example"></iframe>
+  </div>  
+</div>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="image/slide1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/slider2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/slider3.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="pay">
+<h3 style="text-align:center"> Pay Online</h3>
+<img src="image/bkash.png" style="width:100%">
+</div>
+
+<div style="background: #ffffb3" class="pick">
+<h2 style="text-align:center;padding:20px"> Pick Of The Month. <a style="text-decoration:none;color:#ff8533;"href="newarrival.html">See All</a></h2></span>
+   <div class="pick2">
+      <div class="product">
+       <img style="width:60%"src="image/guava.jpeg"/>
+	   <h4> Guava, 1kg </h4>
+	   <h3> TK 70 </h3>
+ </div>
+ 
+  <div class="product">
+         <img style="width:60%"src="image/greenapple.jpeg ">
+	   <h4 > Green Apple, 1kg </h4>
+	   <h3> TK 214 </h3>
+ </div>
+ 
+  <div class="product">
+        <img style="width:60%"src="image/malta.jpeg ">
+	   <h4>Malta,1kg </h4>
+	   <h3> TK 188</h3>
+  </div>
+    <div class="product">
+        <img style="width:68%"src="image/plam.jpeg ">
+	   <h4>Sweet Plam(Local), 1kg</h4>
+	   <h3> TK 55</h3>
+  </div>
+</div>
+</div>
+
+<div style="padding:5px 50px; height:190px"class="box">
+    <div class="box1">
+    
+	<i class="fa fa-lock" style="font-size:36px;padding:10px 20px;border-radius:50%;background: #f2f2f2"></i>
+	<p> 100% Secured</p>
+	<p> Payment</p>
+    </div>
+	<div class="box1">
+   <i class="fa fa-phone" style="font-size:36px;padding:10px 20px;border-radius:50%;background: #f2f2f2"></i>
+	<p> Customer Service</p>
+	<p> Mail & Telephone</p>
+    </div>
+	
+	<div class="box1">
+    <i class="fa fa-exchange" style="font-size:36px;padding:10px 15px;border-radius:50%;background: #f2f2f2"></i>
+	<p> 48 Hours to Change</p>
+	<p> Your Mind</p>
+    </div>
+	
+	<div class="box1">
+    <i class="fa fa-thumbs-o-up" style="font-size:36px;padding:10px 20px;border-radius:50%;background: #f2f2f2"></i>
+    <p> Highest Quality</p>
+	<p> Guarantee</p>
+    </div>
+
+</div>
+
+<div class="subscribe">
+
+<span style="font-weight:bold;font-size:20px"> Be the first to save!</span>
+<input type="text" placeholder="Enter your email address" name="email" required="required">
+  <button>Subscribe</button>
+  
+   <span style="float:right; margin-top:24px;margin-right:20px">
+     <span style="font-weight:bold;font-size:20px;margin-right:20px"> Stay Connected</span>
+	  <i class="fa fa-facebook" style="font-size:24px;margin-right:10px"></i>
+	  <i class="fa fa-google-plus" style="font-size:24px;margin-right:10px"></i>
+	  <i class="fa fa-instagram" style="font-size:24px;margin-right:10px"></i>
+	  <i class="fa fa-youtube" style="font-size:24px;margin-right:10px"></i>
+	  <i class="fa fa-twitter" style="font-size:24px;margin-right:10px"></i>
+	 </span>
+
+
+</div>
+<div class="end">
+
+     <div class="endbox">
+  
+      <span style="font-weight:bold;font-size:18px;">Greenveg</span>
+	  <p> Due to ongoing crisis your order will be delivered within 24hrs Maximum.
+	  In-case of unavailability, alternative products/available products will be delivered. 
+	  We are unable to deliver many of your desired products in this crisis situation. 
+	  We are extremely sorry for this inconveniences. All prices are approximate. 
+	  Product will be delivered at current store/body price.
+	  For any changes, you will get a call from 017++000 before delivery.   </p>
+	     
+     </div>
+  
+   <div class="endbox">
+     <span style="font-weight:bold;font-size:18px;">CUSTOMER SERVICE</span>
+     <ul>
+	   <li> <a href="terms.html">Cancellation, Return & Refund Policy</a> </li>
+       <li><a href="contactus.html"> Contact Us</a>    </li>
+	      <li><a href="contactus.html">Feedback</a>    </li>
+		    <li> <a href="login.html"> Login</a> </li>
+     </ul>
+  
+  </div>
+  
+   <div class="endbox">
+     <span style="font-weight:bold;font-size:18px;"> ABOUT US</span>
+      <ul>
+       <li> <a href="aboutus.html"> About GREENVEG</a> </li>
+	   <li> <a href="terms.html">Terms & Condition</a> </li>
+       <li><a href="terms.html"> Privacy Policy</a>    </li>
+     </ul>
+  </div>
+  
+   <div class="endbox">
+     <span style="font-weight:bold;font-size:18px;">IN THE SPOTLIGHT</span>
+      <ul>
+       <li> <a href="veg.html"> Vegetables</a> </li>
+	   <li> <a href="fruits.html">Fruits</a> </li>
+	      <li> <a href="driedfruit.html">Dried-Fruits</a> </li>
+       <li><a href="offers.html"> Offers</a></li>
+	  
+
+     </ul>
+  </div>
+</div>
+
+<footer>
+  <span style=" margin-top:8px;float:left;left:0">
+  <i class="fa fa-copyright" style="font-size:18px;"></i>
+  <span style="font-size:18px;"> Copyright 2014 Greenveg. All right Reserved.</span>
+  </span>
+   <div style="float:right;margin-right:10px;margin-top:5px">
+    <form>
+     <input style="background:#232f3e;color:white;border:none;border-radius:12px;padding:6px 10px" type="button" value="Open GREENVEG in new windows" onclick="openWin()">
+    </form>
+   </div>
+  
+</footer>
+
+<script>
+  $(document).ready(function(){
+  $(".cart").mouseover(function(){
+  $(".expand").slideToggle(-1000);
+  });
+  });
+ </script>
+
+
+</body>
+<html>
